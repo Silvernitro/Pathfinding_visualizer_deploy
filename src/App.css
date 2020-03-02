@@ -1,0 +1,127 @@
+.Node {
+  border: 0.5px solid rgb(0, 153, 255);
+  width: 20px;
+  height: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  text-align: center;
+}
+
+.GameContainer {
+  width: 80%;
+  margin: 5% 10% 5% 10%;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+}
+
+.RowContainer {
+  display: flex;
+  height: 20px;
+  justify-content: center;
+  align-content: center;
+}
+
+.StatusTitle {
+  font-size: 1.5rem;
+  color: darkslateblue;
+}
+
+.Start {
+  border: 0.5px solid rgb(0, 153, 255);
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(./Styling/map-marker-alt-solid.svg);
+}
+
+.End {
+  border: 0.5px solid rgb(0, 153, 255);
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-image: url(./Styling/flag-regular.svg);
+}
+
+.Path {
+  border: 0.5px solid rgb(0, 153, 255);
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-color: #faff00;
+}
+
+.Visited {
+  border: 0.5px solid rgb(0, 153, 255);
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-color: lightgrey;
+}
+
+.Wall {
+  border: 0.5px solid rgb(0, 153, 255);
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-color: #3d7499;
+}
+
+.HideThis {
+  visibility: hidden;
+}
+
+.Options {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: stretch;
+  margin-top: 10px;
+}
+
+button {
+  /* font */
+  color: black;
+  font-size: 15px;
+  font-family: helvetica;
+
+  /* remove blue underline */
+  text-decoration: none;
+
+  /* border */
+  border: 2px solid black;
+  border-radius: 20px;
+
+  /* transitions */
+  transition-duration: 0.2s;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+
+  /* other */
+  background-color: white;
+  padding: 2px 15px;
+  height: fit-content;
+}
+
+button:hover {
+  /* update text color and background color */
+  color: white;
+  background-color: black;
+
+  /* transitions */
+  transition-duration: 0.2s;
+  -webkit-transition-duration: 0.11s;
+  -moz-transition-duration: 0.2s;
+}
+
+select {
+  width: 70px;
+  font-family: Helvetica;
+  font-size: 15px;
+  background-color: white;
+  border-radius: 0;
+  padding-left: 10px;
+  margin: 0px 5px;
+}
