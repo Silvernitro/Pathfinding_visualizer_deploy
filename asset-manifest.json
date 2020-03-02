@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/pathfinding_visualizer_deploy/static/css/main.36dc1fd4.chunk.css",
+    "main.js": "/pathfinding_visualizer_deploy/static/js/main.2e8596e2.chunk.js",
+    "main.js.map": "/pathfinding_visualizer_deploy/static/js/main.2e8596e2.chunk.js.map",
+    "runtime-main.js": "/pathfinding_visualizer_deploy/static/js/runtime-main.5fc94a0f.js",
+    "runtime-main.js.map": "/pathfinding_visualizer_deploy/static/js/runtime-main.5fc94a0f.js.map",
+    "static/js/2.23bcc533.chunk.js": "/pathfinding_visualizer_deploy/static/js/2.23bcc533.chunk.js",
+    "static/js/2.23bcc533.chunk.js.map": "/pathfinding_visualizer_deploy/static/js/2.23bcc533.chunk.js.map",
+    "index.html": "/pathfinding_visualizer_deploy/index.html",
+    "precache-manifest.f32a64c2dbda6481b735fad3e35e448e.js": "/pathfinding_visualizer_deploy/precache-manifest.f32a64c2dbda6481b735fad3e35e448e.js",
+    "service-worker.js": "/pathfinding_visualizer_deploy/service-worker.js",
+    "static/css/main.36dc1fd4.chunk.css.map": "/pathfinding_visualizer_deploy/static/css/main.36dc1fd4.chunk.css.map",
+    "static/js/2.23bcc533.chunk.js.LICENSE": "/pathfinding_visualizer_deploy/static/js/2.23bcc533.chunk.js.LICENSE",
+    "static/media/App.css": "/pathfinding_visualizer_deploy/static/media/map-marker-alt-solid.2b7c48a7.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5fc94a0f.js",
+    "static/js/2.23bcc533.chunk.js",
+    "static/css/main.36dc1fd4.chunk.css",
+    "static/js/main.2e8596e2.chunk.js"
+  ]
+}
